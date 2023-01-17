@@ -7,6 +7,7 @@
     <meta name="author" content="Thomas Netusil">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Form</title>
+    <meta name="description" content="Form to rebuild from Image">
 </head>
 
 <body>
@@ -14,36 +15,35 @@
         <h1>Register Form</h1>
     </header>
     <main>
-        <form><label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname" value="John"><br>
+        <form>
+            <label for="fname">Firstname</label>
+            <input type="text" id="fname" name="fname" value="John"><br><br>
             <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname" value="Doe">
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
 
-            <br>
             <label for="Course"> Course:</label>
             <select id="Course" name="Course">
-                <option value="HTML">HTML</option>
+                <option value="HTML" selected>HTML</option>
                 <option value="JavaScript">JavaScript</option>
                 <option value="CSS">CSS</option>
             </select>
 
             <p>Gender:</p>
-            <input type="radio" id="Male" name="Gender" value="Male">
+            <input type="radio" id="Male" name="Gender" value="Male" checked>
             <label for="Male">Male</label><br>
-
             <input type="radio" id="Female" name="Gender" value="Female">
             <label for="Female">Female</label><br>
 
             <p>Hobbies:</p>
-            <input type="checkbox" id="vehicle1" name="vehicle1" value="Coding">
-            <label for="vehicle1">Coding</label><br>
-            <input type="checkbox" id="vehicle2" name="vehicle2" value="Swimming">
-            <label for="vehicle2">Swimming</label><br>
-            <input type="checkbox" id="vehicle3" name="vehicle3" value="Reading">
-            <label for="vehicle3">Reading </label><br><br>
+            <input type="checkbox" id="Coding" name="Coding" value="Coding" checked>
+            <label for="Coding">Coding</label><br>
+            <input type="checkbox" id="Swimming" name="Swimming" value="Swimming" checked>
+            <label for="Swimming">Swimming</label><br>
+            <input type="checkbox" id="Reading" name="reading" value="Reading">
+            <label for="Reading">Reading </label><br><br>
 
 
-            <label for="Phone">Phone:</label>
+            <label for=" Phone">Phone:</label>
             <input type="tel"><br>
 
             <p>Adress:</p>
